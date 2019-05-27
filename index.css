@@ -1,0 +1,61 @@
+body{
+    background-color: #f7f1e3;
+    font-family: "Nanum Gothic", "NanumGothicBold", "Malgun Gothic", "sans-serif", Helvetica;
+}
+h1,h4{
+    color: white;
+    font-family: "Nanum Gothic", "NanumGothicBold", "Malgun Gothic", "sans-serif", Helvetica;
+    transition: color 0.5s ease-in-out;
+}
+
+li{
+    line-height: 35px; 
+}
+f
+.btn{
+    cursor: pointer;
+}
+.clicked {
+    color:#ff3f34;
+}
+
+.form,
+.greetings {
+    display: none;
+    font-family: "Nanum Gothic", "NanumGothicBold", "Malgun Gothic", "sans-serif", Helvetica;
+    color: beige;
+}
+
+.showing{
+    display: block;
+}
+
+.js-toDoList{
+    font-family: "Nanum Gothic", "NanumGothicBold", "Malgun Gothic", "sans-serif", Helvetica;
+    color: white;
+}
+
+.js-weather{
+    font-family: "Nanum Gothic", "NanumGothicBold", "Malgun Gothic", "sans-serif", Helvetica;
+    color: white;
+}
+
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn .5s liner;
+}
